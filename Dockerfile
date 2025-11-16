@@ -1,4 +1,4 @@
-FROM amazoncorretto:21.0.7
+FROM eclipse-temurin:17-jdk-jammy
 
 LABEL       author="Antonio Hernandez" maintainer="andezdev@gmail.com" 
 
