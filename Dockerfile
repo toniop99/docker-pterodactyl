@@ -2,9 +2,6 @@ FROM amazoncorretto:21.0.7
 
 LABEL       author="Antonio Hernandez" maintainer="andezdev@gmail.com" 
 
-RUN apk update && \
-    apk add --no-cache bash
-
 USER container
 ENV USER=container HOME=/home/container
 WORKDIR /home/container
