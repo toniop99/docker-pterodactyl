@@ -1,4 +1,4 @@
-FROM amazoncorretto:21.0.7-alpine3.21
+FROM amazoncorretto:21.0.7
 
 LABEL       author="Antonio Hernandez" maintainer="andezdev@gmail.com" 
 
